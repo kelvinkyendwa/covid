@@ -1,5 +1,7 @@
 # covid
 
+An application to track down covid cases in a country
+
 ## Build Setup
 
 ```bash
@@ -17,4 +19,12 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+update the country data props and add the ones you want
+
+```
+data() {
+   return {
+     countries: ['Kenya', 'Tanzania', 'Uganda', 'Ethiopia'],
+   }
+ }
+```
